@@ -1,0 +1,15 @@
+---
+title: "Hi, I'm Kevin"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: darkly
+---
+
+I'm a Diné environmental health scientist in training. My research investigates the distribution of metal exposures (uranium, arsenic, etc.) in groundwater and diet across US indigenous communities and their relationship with chronic health conditions. I use epidemiologic, biostatistical and qualitative methods to assess these associations. 
+
+
+I hope to expand research capacity in indigenous health and, ultimately, inform tribal and federal regulations to reduce environmental exposures in rural, historically marginalized communities. 
+
+I am currently a first year Ph.D student in the Department of Environmental Health Sciences at Columbia University Mailman School of Public Health. I'm a trainee with the Columbia Superfund Research Program, Gates Millennium Scholar, and Agents of Change Fellow. I hold an M.P.H. in Environmental Health Sciences from Columbia Mailman School of Public Health (2021), and a B.A. in Native American Studies and Global Health from Dartmouth College (2017).
