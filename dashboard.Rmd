@@ -63,12 +63,12 @@ instacart %>%
 ```{r echo=FALSE}
 instacart %>% 
   filter(aisle == "fresh vegetables") %>%
-  filter(product_name %in% c("Organic Cucumber", "Organic Zucchini", "Organic Yellow Onion", "Organic Garlic", "Asparagus", "Organic Red Onion", "Yellow Onions", "Broccoli Crown", "Red Peppers", "Fresh Cauliflower")) %>%  
+  filter(product_name %in% c("Asparagus", "Broccoli Crown", "Fresh Cauliflower", "Green Bell Pepper", "Michigan Organic Kale", "Organic Cucumber", "Organic Garlic", "Organic Garnet Sweet Potato (Yam)", "Organic Red Onion", "Organic Small Bunch Celery", "Organic Tomato Cluster", "Organic Yellow Onion", "Organic Zucchini", "Red Peppers", "Yellow Onions")) %>%  
   plot_ly(
     y = ~order_hour_of_day, x = ~product_name, color = ~product_name, 
     type = "box", colors = "viridis") %>%
   layout(
     xaxis = list(title = FALSE),
     yaxis = list(title = "24-hour day order is placed"),
-    title = "Order day distribution of 30 most popular vegetables")
+    title = "Order day distribution of the top 15 most ordered vegetables (descending)")
 ```
