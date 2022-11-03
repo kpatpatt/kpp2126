@@ -13,4 +13,4 @@ navbar:
       href: http://github.com/kpatpatt/
 output:
   html_document:
-    theme: darkly
+    theme: paper

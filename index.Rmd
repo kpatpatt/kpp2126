@@ -1,15 +1,44 @@
 ---
-title: "Hi, I'm Kevin"
+title: "**Hi, I'm Kevin**"
 output: 
   html_document:
-    toc: true
+    toc: false
     toc_float: true
-    theme: darkly
+    theme: paper
 ---
+***
+<img src="images/selfpic2.jpeg" style="width:30%" align="right" hspace="40" vspace="10" />
 
-I'm a Diné environmental health scientist in training. My research investigates the distribution of metal exposures (uranium, arsenic, etc.) in groundwater and diet across US indigenous communities and their relationship with chronic health conditions. I use epidemiologic, biostatistical and qualitative methods to assess these associations. 
+<div style="text-align: left"> 
+I'm a Diné environmental health scientist in training. My research investigates the distribution of metal exposures in groundwater and diet across US indigenous communities and their relationship with chronic health conditions. I use epidemiologic, biostatistical and qualitative methods to assess these relationships.
 
+I hope to expand research capacity in indigenous health and, ultimately, inform tribal and federal regulations to <u>reduce environmental exposures in rural, historically marginalized communities.</u>
 
-I hope to expand research capacity in indigenous health and, ultimately, inform tribal and federal regulations to reduce environmental exposures in rural, historically marginalized communities. 
+I am currently a first year Ph.D student in the [Department of Environmental Health Sciences](https://www.publichealth.columbia.edu/academics/departments/environmental-health-sciences-ehs) at Columbia University Mailman School of Public Health. I'm a trainee with the [Columbia Northern Plains Superfund Research Program](https://www.publichealth.columbia.edu/research/columbia-superfund-research-program), a [Provost Diversity Fellow](https://provost.columbia.edu/content/provost-diversity-fellows), and a [Agents of Change Fellow](https://agentsofchangeinej.org/fellows/). I hold an M.P.H. in Environmental Health Sciences from [Columbia Mailman School of Public Health](https://www.publichealth.columbia.edu/) (2021), and a B.A. in Native American Studies and Global Health from [Dartmouth College](https://home.dartmouth.edu/) (2017).
+</div>
 
-I am currently a first year Ph.D student in the Department of Environmental Health Sciences at Columbia University Mailman School of Public Health. I'm a trainee with the Columbia Superfund Research Program, Gates Millennium Scholar, and Agents of Change Fellow. I hold an M.P.H. in Environmental Health Sciences from Columbia Mailman School of Public Health (2021), and a B.A. in Native American Studies and Global Health from Dartmouth College (2017).
+<br>
+<br>
+
+***
+
+<br>
+<center>
+### <i class="far fa-address-card fa-lg"></i>
+
+Kevin P. Patterson
+<br>
+Department of Environmental Health Sciences
+<br>
+Columbia Mailman School of Public Health
+<br>
+722 West 168th Street
+<br>
+New York, New York 10032
+<br>
+Email: [kpp2126@cumc.columbia.edu](mailto:<kpp2126@cumc.columbia.edu>)
+<br>
+</p>
+</center>
+<br>
+<br>

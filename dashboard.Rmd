@@ -6,3 +6,69 @@ output:
     vertical_layout: fill
     source: embed
 ---
+```{r setup, include=FALSE}
+library(tidyverse)
+library(dplyr)
+library(p8105.datasets)
+library(plotly)
+library(flexdashboard)
+```
+
+```{r load data, echo=FALSE}
+data("instacart")
+```
+
+Column {data-width=500}
+-----------------------------------------------------------------------
+
+### Plot A
+
+```{r echo=FALSE}
+instacart %>%
+  count(aisle) %>%
+  filter(n > 10000) %>%
+  mutate(count = n,
+         aisle = fct_reorder(aisle, count)) %>%
+  plot_ly(
+    x = ~aisle, y = ~count, color = ~aisle, 
+    type = "bar", colors = "viridis") %>% 
+  layout(
+    xaxis = list(title = FALSE),
+    yaxis = list(title = "Count"),
+    title = "Aisles with greater than 10,000 items ordered"
+  )
+```
+
+
+Column {data-width=400}
+-----------------------------------------------------------------------
+
+### Plot B
+
+```{r echo=FALSE}
+instacart %>% 
+  filter(aisle == "fresh vegetables" | aisle == "fresh fruits") %>% 
+  count(product_name) %>% 
+  filter(n>2500) %>% 
+  arrange(desc(n)) %>% 
+  mutate(percent = n / sum(n) * 100) %>%
+  plot_ly(labels = ~product_name, values = ~percent, type = 'pie') %>% 
+  layout(title = 'Top 30 Vegetables and Fruits Consumed',
+         xaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE),
+         yaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE))
+```
+
+### Plot C
+
+```{r echo=FALSE}
+instacart %>% 
+  filter(aisle == "fresh vegetables") %>%
+  filter(product_name %in% c("Organic Cucumber", "Organic Zucchini", "Organic Yellow Onion", "Organic Garlic", "Asparagus", "Organic Red Onion", "Yellow Onions", "Broccoli Crown", "Red Peppers", "Fresh Cauliflower")) %>%  
+  plot_ly(
+    y = ~order_hour_of_day, x = ~product_name, color = ~product_name, 
+    type = "box", colors = "viridis") %>%
+  layout(
+    xaxis = list(title = FALSE),
+    yaxis = list(title = "24-hour day order is placed"),
+    title = "Order day distribution of 30 most popular vegetables")
+```

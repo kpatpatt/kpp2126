@@ -11,7 +11,7 @@
 
 
 
-<title>Hi, I’m Kevin</title>
+<title>CV</title>
 
 <script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -29,6 +29,9 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -228,6 +231,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -235,6 +301,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -281,56 +357,108 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore"><strong>Hi, I’m Kevin</strong></h1>
+<h1 class="title toc-ignore">CV</h1>
 
 </div>
 
 
-<hr />
-<p><img src="images/selfpic2.jpeg" style="width:30%" align="right" hspace="40" vspace="10" /></p>
-<div style="text-align: left">
-<p>I’m a Diné environmental health scientist in training. My research
-investigates the distribution of metal exposures in groundwater and diet
-across US indigenous communities and their relationship with chronic
-health conditions. I use epidemiologic, biostatistical and qualitative
-methods to assess these relationships.</p>
-<p>I hope to expand research capacity in indigenous health and,
-ultimately, inform tribal and federal regulations to <u>reduce
-environmental exposures in rural, historically marginalized
-communities.</u></p>
-<p>I am currently a first year Ph.D student in the <a
-href="https://www.publichealth.columbia.edu/academics/departments/environmental-health-sciences-ehs">Department
-of Environmental Health Sciences</a> at Columbia University Mailman
-School of Public Health. I’m a trainee with the <a
-href="https://www.publichealth.columbia.edu/research/columbia-superfund-research-program">Columbia
-Northern Plains Superfund Research Program</a>, a <a
-href="https://provost.columbia.edu/content/provost-diversity-fellows">Provost
-Diversity Fellow</a>, and a <a
-href="https://agentsofchangeinej.org/fellows/">Agents of Change
-Fellow</a>. I hold an M.P.H. in Environmental Health Sciences from <a
-href="https://www.publichealth.columbia.edu/">Columbia Mailman School of
-Public Health</a> (2021), and a B.A. in Native American Studies and
-Global Health from <a href="https://home.dartmouth.edu/">Dartmouth
-College</a> (2017).</p>
+<div id="education" class="section level1">
+<h1>Education</h1>
+<p><strong>Columbia University Mailman School of Public Health</strong>
+<br> 2022- Ph.D. Environmental Health Sciences <br> 2021 M.P.H
+Environmental Health Sciences, Certificate in Molecular Epidemiology</p>
+<p><strong>Dartmouth College</strong> <br> 2017 B.A. Native American
+Studies, minors in Global Health and Asian Middle Eastern Studies</p>
 </div>
-<p><br> <br></p>
-<hr />
-<br>
-<center>
-<div id="section" class="section level3">
-<h3><i class="far fa-address-card fa-lg"></i></h3>
-Kevin P. Patterson <br> Department of Environmental Health Sciences <br>
-Columbia Mailman School of Public Health <br> 722 West 168th Street <br>
-New York, New York 10032 <br> Email: <a
-href="mailto:%3Ckpp2126@cumc.columbia.edu%3E">kpp2126@cumc.columbia.edu</a>
-<br>
-</p>
-</center>
-<p><br> <br></p>
+<div id="experience" class="section level1">
+<h1>Experience</h1>
+<p><strong>Public Health Experience</strong> <br> June 2021-September
+2022: <br> Research Technician B, Department of Environmental Health
+Sciences, Columbia University Mailman School of Public Health, New York,
+NY <br> - Lead analyses of uranium exposure among U.S. Native American
+groups and further investigate relationships with cardiovascular health
+endpoints. <br> May 2020-May 2021: <br> Research Assistant, Department
+of Environmental Health Sciences, Columbia University Mailman School of
+Public Health, New York, NY <br> - Conducted analysis of heavy metal
+exposure Strong Heart Study (SHS) participants to improve understanding
+of geographic and dietary sources. <br> May 2020-present: <br> Superfund
+Research Program Trainee, Columbia Superfund Research Program,
+Department of Environmental Health Sciences, Columbia University Mailman
+School of Public Health, New York, NY <br> <br> <strong>Professional
+Experience</strong> <br> 2017-2018: <br> Project Associate, Yanaba
+Services LLC, Denver, CO, New York, NY <br> - Provided strategic
+guidance on company’s partnership with Colorado’s southern federally
+recognized tribes to secure federal contracts for telehealth
+services.</p>
+</div>
+<div id="leadership-and-community-engagment" class="section level1">
+<h1>Leadership and Community Engagment</h1>
+<p>2020: <br> OCDI Educational Equity Fellow, Office of Diversity,
+Culture, and Inclusion, Columbia University Mailman School of Public
+Health, New York, NY <br> 2020: <br> President, Indigenous Health
+Collective, Columbia University Mailman School of Public Health, New
+York, NY 2016-17: <br> President, Queer and Still Here: Two-Spirits at
+Dartmouth, Dartmouth College, Hanover, NH 2016-17: <br> Secretary,
+Native Americans at Dartmouth (NAD), Dartmouth College, Hanover, NH
+2016: <br> Search Committee Member, Native Americans at Dartmouth (NAD),
+Dartmouth College, Hanover, NH <br> - Served on the search committee to
+interview and give feedback on candidates for the Native American
+Program Director.</p>
+</div>
+<div id="teaching-experience-and-mentoring" class="section level1">
+<h1>Teaching Experience and Mentoring</h1>
+<p>Fall 2021:Lead Teaching Assistant, Environment, Health, and Justice:
+Concepts Methods, and Practice, Department of Environmental Health
+Sciences, Columbia University Mailman School of Public Health, New York,
+NY <br> Spring 2021: Teaching Assistant, Personal Leadership in Public
+Health, Columbia University Mailman School of Public Health, New York,
+NY <br> - Taught two sections (22 and 23 students respectively) on
+fundamental principles and practice of leadership as it applies to a
+career in public health. <br> Fall 2020: Teaching Assistant, Public
+Health GIS, Department of Environmental Health Sciences, Columbia
+University Mailman School of Public Health, New York, NY <br> Fall 2020:
+Teaching Assistant, Environment, Health, and Justice: Concepts Methods,
+and Practice, Department of Environmental Health Sciences, Columbia
+University Mailman School of Public Health, New York, NY <br> Summer
+2020:Graduate Research Mentor, Lamont-Doherty Earth Observatory Summer
+Internship Program for Undergraduates, Earth Institute, Columbia
+University, New York, NY <br> 2014: Program Coordinator, Native American
+Pre-Orientation, Dartmouth College, Hanover, NH <br> 2014: Native
+American Peer Advisor, College Horizons, Dartmouth College, Hanover,
+NH</p>
+</div>
+<div id="manuscripts" class="section level1">
+<h1>Manuscripts</h1>
+<p><strong>In Review</strong> <br> 2021 Patterson, K.P.<em>, Onderwyzer
+Gold, A.</em>, Spratlen, M., Nigra, A.E., Umans, J.G., Fretts, A.M.,
+Goessler, W., Zhang, Y., Navas-Acien, A. Differential Uranium Exposure
+and its Association with Hypertension and Elevated Blood Pressure in
+American Indian Communities in the Strong Heart Family Study. Submitted
+for tribal review in October 2022. <br> 2020 Patterson, K.P., Nigra,
+A.E., Olmedo, P., Grau-Perez, M., O’Leary, R., O’Leary, M., Fretts,
+A.M., Umans, J.G., Best, L.G., Francesconi, K.A., Goessler, W., Cole,
+S.A., Navas-Acien, A. Geographic and Dietary Differences of Urinary
+Uranium levels in the Strong Heart Family Study. Submitted for tribal
+review in October 2022.</p>
+</div>
+<div id="conferences" class="section level1">
+<h1>Conferences</h1>
+<p><strong>Presenter</strong> <br> 2022 “Geographic and Dietary
+Differences of Urinary Uranium levels in the Strong Heart Family Study,”
+International Society for Environmental Epidemiology 34rd Annual
+Conference, Athens, Greece, September 18-21, 2022. Poster. <br> 2021
+“Steering Committee and Observational Safety Monitoring Board Meeting
+for the Strong Heart Study,” Strong Heart Study, November 18, 2021 <br>
+2021 “Environmental Health Inequalities in Indigenous Communities:
+Lessons and Opportunities,” International Society for Environmental
+Epidemiology 33rd Annual Conference, New York, New York, August 23-26,
+2021. Symposium.</p>
 </div>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -363,6 +491,35 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

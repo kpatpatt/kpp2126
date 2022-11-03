@@ -1,0 +1,103 @@
+---
+title: "CV"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    self_contained: no
+---
+
+# Education
+**Columbia University Mailman School of Public Health**
+<br>
+2022- Ph.D. Environmental Health Sciences
+<br>
+2021  M.P.H Environmental Health Sciences, Certificate in Molecular Epidemiology
+
+**Dartmouth College**
+<br>
+2017  B.A. Native American Studies, minors in Global Health and Asian Middle Eastern Studies
+
+# Experience
+**Public Health Experience**
+<br>
+June 2021-September 2022:
+<br>
+Research Technician B, Department of Environmental Health Sciences, Columbia University Mailman School of Public Health, New York, NY
+<br>
+- Lead analyses of uranium exposure among U.S. Native American groups and further investigate relationships with cardiovascular health endpoints.
+<br>
+May 2020-May 2021:
+<br>
+Research Assistant, Department of Environmental Health Sciences, Columbia University Mailman School of Public Health, New York, NY
+<br>
+- Conducted analysis of heavy metal exposure Strong Heart Study (SHS) participants to improve understanding of geographic and dietary sources.
+<br>
+May 2020-present:
+<br>
+Superfund Research Program Trainee, Columbia Superfund Research Program, Department of Environmental Health Sciences, Columbia University Mailman School of Public Health, New York, NY
+<br>
+<br>
+**Professional Experience**
+<br>
+2017-2018:
+<br>
+Project Associate, Yanaba Services LLC, Denver, CO, New York, NY
+<br>
+-	Provided strategic guidance on company’s partnership with Colorado’s southern federally recognized tribes to secure federal contracts for telehealth services.
+
+# Leadership and Community Engagment
+2020:
+<br>
+OCDI Educational Equity Fellow, Office of Diversity, Culture, and Inclusion, Columbia University Mailman School of Public Health, New York, NY
+<br>
+2020:
+<br>
+President, Indigenous Health Collective, Columbia University Mailman School of Public Health, New York, NY
+2016-17:
+<br>
+President, Queer and Still Here: Two-Spirits at Dartmouth, Dartmouth College, Hanover, NH
+2016-17:
+<br>
+Secretary, Native Americans at Dartmouth (NAD), Dartmouth College, Hanover, NH
+2016:
+<br>
+Search Committee Member, Native Americans at Dartmouth (NAD), Dartmouth College, Hanover, NH
+<br>
+-	Served on the search committee to interview and give feedback on candidates for the Native American Program Director.
+
+
+# Teaching Experience and Mentoring
+Fall 2021:Lead Teaching Assistant, Environment, Health, and Justice: Concepts Methods, and Practice, Department of Environmental Health Sciences, Columbia University Mailman School of Public Health, New York, NY
+<br>
+Spring 2021:	Teaching Assistant, Personal Leadership in Public Health, Columbia University Mailman School of Public Health, New York, NY
+<br>
+-	Taught two sections (22 and 23 students respectively) on fundamental principles and practice of leadership as it applies to a career in public health.
+<br>
+Fall 2020: Teaching Assistant, Public Health GIS, Department of Environmental Health Sciences, Columbia University Mailman School of Public Health, New York, NY
+<br>
+Fall 2020: Teaching Assistant, Environment, Health, and Justice: Concepts Methods, and Practice, Department of Environmental Health Sciences, Columbia University Mailman School of Public Health, New York, NY
+<br>
+Summer 2020:Graduate Research Mentor, Lamont-Doherty Earth Observatory Summer Internship Program for Undergraduates, Earth Institute, Columbia University, New York, NY
+<br>
+2014: Program Coordinator, Native American Pre-Orientation, Dartmouth College, Hanover, NH
+<br>
+2014: Native American Peer Advisor, College Horizons, Dartmouth College, Hanover, NH
+
+# Manuscripts
+**In Review**
+<br>
+2021	Patterson, K.P.*, Onderwyzer Gold, A.*, Spratlen, M., Nigra, A.E., Umans, J.G., Fretts, A.M., Goessler, W., Zhang, Y., Navas-Acien, A. Differential Uranium Exposure and its Association with Hypertension and Elevated Blood Pressure in American Indian Communities in the Strong Heart Family Study. Submitted for tribal review in October 2022.
+<br>
+2020	Patterson, K.P., Nigra, A.E., Olmedo, P., Grau-Perez, M., O’Leary, R., O’Leary, M., Fretts, A.M., Umans, J.G., Best, L.G., Francesconi, K.A., Goessler, W., Cole, S.A., Navas-Acien, A. Geographic and Dietary Differences of Urinary Uranium levels in the Strong Heart Family Study. Submitted for tribal review in October 2022.
+
+# Conferences
+**Presenter**
+<br>
+2022 "Geographic and Dietary Differences of Urinary Uranium levels in the Strong Heart Family Study," International Society for Environmental Epidemiology 34rd Annual Conference, Athens, Greece, September 18-21, 2022. Poster.
+<br>
+2021	“Steering Committee and Observational Safety Monitoring Board Meeting for the Strong Heart Study,” Strong Heart Study, November 18, 2021
+<br>
+2021	“Environmental Health Inequalities in Indigenous Communities: Lessons and Opportunities,” International Society for Environmental Epidemiology 33rd Annual Conference, New York, New York, August 23-26, 2021. Symposium.
+
+
